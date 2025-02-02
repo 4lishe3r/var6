@@ -3,7 +3,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-// Класс автосалона
 class CarShowroom {
     private String name;
     private ArrayList<Car> cars;
@@ -36,7 +35,6 @@ class CarShowroom {
     }
 }
 
-// Класс автомобиля
 class Car {
     private String brandName;
     private int maxPassengers;
@@ -76,7 +74,6 @@ class Car {
     }
 }
 
-// Класс заявки на покупку
 class PurchaseRequest {
     private String buyerName;
     private String phoneNumber;
@@ -94,7 +91,6 @@ class PurchaseRequest {
     }
 }
 
-// Графический интерфейс
 class CarShowroomGUI extends JFrame {
     private CarShowroom showroom;
     private DefaultListModel<String> carListModel;
